@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tulips Havens Ltd — Stays & Retreats</title>
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Grain overlay -->
+  <div class="grain"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <img src="src/assets/images/logo.jpeg" alt="Tulips Havens Ltd" class="nav__logo-img" />
+    </div>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#stays">Stays</a></li>
+      <li><a href="#tulips">Tulips</a></li>
+      <li><a href="#contact" class="nav__cta">Book Now</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#stays" class="mobile-link">Stays</a></li>
+      <li><a href="#tulips" class="mobile-link">Tulips</a></li>
+      <li><a href="#contact" class="mobile-link">Book Now</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Stays &amp; Retreats</p>
+      <h1 class="hero__title reveal delay-1">
+        Where Every<br /><em>Stay</em> Blooms
+      </h1>
+      <p class="hero__subtitle reveal delay-2">
+        Discover handpicked luxury havens crafted for travellers<br />who seek beauty, calm, and unforgettable moments.
+      </p>
+      <div class="hero__actions reveal delay-3">
+        <a href="#stays" class="btn btn--primary">Explore Retreats</a>
+        <a href="#about" class="btn btn--ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text">
+          <p class="section__label reveal">About Us</p>
+          <h2 class="section__title reveal delay-1">A Haven<br /><em>Redefined</em></h2>
+          <p class="about__body reveal delay-2">
+            Tulips Havens Ltd is a premium hospitality company rooted in the belief that where you stay shapes who you become. We curate extraordinary spaces—each one a petal in a larger bouquet of extraordinary experiences.
+          </p>
+          <p class="about__body reveal delay-3">
+            Inspired by the tulip's timeless elegance—its range of colours, its resilience, its beauty—we bring that same intentionality to every stay we offer.
+          </p>
+          <div class="about__stats reveal delay-4">
+            <div class="stat">
+              <span class="stat__num">50+</span>
+              <span class="stat__label">Curated Properties</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">12</span>
+              <span class="stat__label">Retreat Locations</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">1K+</span>
+              <span class="stat__label">Happy Guests</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__visual reveal delay-2">
+          <div class="about__card">
+            <div class="about__card-inner">
+              <img src="src/assets/images/about.jpeg" alt="Tulips Havens Ltd" class="about__logo-img" />
+            </div>
+          </div>
+          <div class="about__accent-ring"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STAYS ========== -->
+  <section class="stays section" id="stays">
+    <div class="container">
+      <div class="stays__header">
+        <p class="section__label reveal">Our Offerings</p>
+        <h2 class="section__title reveal delay-1">Signature <em>Stays</em></h2>
+        <p class="stays__intro reveal delay-2">Each retreat is a world unto itself—thoughtfully designed, impeccably hosted.</p>
+      </div>
+      <div class="stays__grid">
+
+        <div class="stay-card reveal">
+          <div class="stay-card__icon">🏡</div>
+          <div class="stay-card__color" style="--accent:#c0392b"></div>
+          <h3 class="stay-card__title">Garden Villas</h3>
+          <p class="stay-card__desc">Private villas surrounded by curated gardens. Wake to birdsong, retire to silence.</p>
+          <span class="stay-card__tag">❤️ Love & Intimacy</span>
+        </div>
+
+        <div class="stay-card reveal delay-1">
+          <div class="stay-card__icon">🌿</div>
+          <div class="stay-card__color" style="--accent:#b8860b"></div>
+          <h3 class="stay-card__title">Sunrise Retreats</h3>
+          <p class="stay-card__desc">Hilltop escapes designed to flood your mornings with golden light and fresh perspective.</p>
+          <span class="stay-card__tag">☀️ Joy & Renewal</span>
+        </div>
+
+        <div class="stay-card reveal delay-2">
+          <div class="stay-card__icon">🕊️</div>
+          <div class="stay-card__color" style="--accent:#d4d0c8"></div>
+          <h3 class="stay-card__title">Serenity Suites</h3>
+          <p class="stay-card__desc">Minimalist spaces stripped of noise. Perfect for healing, writing, or simply being.</p>
+          <span class="stay-card__tag">🤍 Peace & Forgiveness</span>
+        </div>
+
+        <div class="stay-card reveal delay-3">
+          <div class="stay-card__icon">👑</div>
+          <div class="stay-card__color" style="--accent:#7b2d8b"></div>
+          <h3 class="stay-card__title">Royal Estates</h3>
+          <p class="stay-card__desc">Our most opulent properties. For those who expect—and deserve—nothing but the finest.</p>
+          <span class="stay-card__tag">👑 Royalty & Prestige</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TULIPS SECTION ========== -->
+  <section class="tulips section" id="tulips">
+    <div class="tulips__bg-text">TULIPS</div>
+    <div class="container">
+      <div class="tulips__header">
+        <p class="section__label reveal">Our Namesake</p>
+        <h2 class="section__title reveal delay-1">The Tulip <em>Story</em></h2>
+      </div>
+      <div class="tulips__grid">
+        <div class="tulip-fact reveal">
+          <div class="tulip-fact__icon">🌍</div>
+          <h4>Origins</h4>
+          <p>Native to Central Asia, the tulip found its most famous home in the Netherlands—carried across continents by wonder and trade.</p>
+        </div>
+        <div class="tulip-fact reveal delay-1">
+          <div class="tulip-fact__icon">🎨</div>
+          <h4>Colours</h4>
+          <p>Red, yellow, pink, white, purple—even multicoloured. Each hue a story, each bloom a sentiment waiting to unfold.</p>
+        </div>
+        <div class="tulip-fact reveal delay-2">
+          <div class="tulip-fact__icon">🌱</div>
+          <h4>Growing</h4>
+          <p>Planted in autumn, basking in full or partial sun, thriving in well-drained soil—then blooming triumphantly every spring.</p>
+        </div>
+      </div>
+
+      <!-- Colour symbolism strip -->
+      <div class="symbolism reveal delay-2">
+        <h3 class="symbolism__title">Colour Symbolism</h3>
+        <div class="symbolism__strip">
+          <div class="sym-pill" data-color="#c0392b">
+            <div class="sym-pill__dot"></div>
+            <span class="sym-pill__emoji">❤️</span>
+            <span class="sym-pill__label">Red — Love</span>
+          </div>
+          <div class="sym-pill" data-color="#d4ac0d">
+            <div class="sym-pill__dot"></div>
+            <span class="sym-pill__emoji">☀️</span>
+            <span class="sym-pill__label">Yellow — Happiness</span>
+          </div>
+          <div class="sym-pill" data-color="#e8e8e0">
+            <div class="sym-pill__dot"></div>
+            <span class="sym-pill__emoji">🤍</span>
+            <span class="sym-pill__label">White — Forgiveness</span>
+          </div>
+          <div class="sym-pill" data-color="#7b2d8b">
+            <div class="sym-pill__dot"></div>
+            <span class="sym-pill__emoji">👑</span>
+            <span class="sym-pill__label">Purple — Royalty</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT / BOOKING ========== -->
+  <section class="contact section" id="contact">
+    <div class="contact__bg">
+      <div class="contact__orb"></div>
+    </div>
+    <div class="container">
+      <div class="contact__inner">
+        <p class="section__label reveal">Get In Touch</p>
+        <h2 class="section__title reveal delay-1">Reserve Your <em>Bloom</em></h2>
+        <p class="contact__sub reveal delay-2">Tell us your dream stay. We'll make it happen.</p>
+        <form class="contact__form reveal delay-3" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="stay">Preferred Stay Type</label>
+            <select id="stay" name="stay">
+              <option value="">Select a retreat…</option>
+              <option>Garden Villas</option>
+              <option>Sunrise Retreats</option>
+              <option>Serenity Suites</option>
+              <option>Royal Estates</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your perfect stay…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--wide">Send Enquiry 🌷</button>
+          <div class="form__success" id="formSuccess">
+            ✨ Thank you! We'll be in touch soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="src/assets/images/logo.jpeg" alt="Tulips Havens Ltd" class="footer__logo-img" />
+          <p class="footer__desc">Where every moment blooms.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stays">Stays</a></li>
+            <li><a href="#tulips">Tulips</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">WhatsApp</a></li>
+            <li><a href="#">TripAdvisor</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Tulips Havens Ltd. All rights reserved.</p>
+        <p>Crafted with 🌷 and care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
