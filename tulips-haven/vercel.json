@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd tulips-haven && echo 'Build complete'",
+  "outputDirectory": "tulips-haven"
+}
