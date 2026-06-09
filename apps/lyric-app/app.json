@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Lyrica",
+    "slug": "lyric-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "lyricapp",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundColor": "#121212"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.lyrica.app"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#121212",
+          "android": {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 200
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "53e67fb0-37fe-43cc-986c-2c928d42438c"
+      }
+    }
+  }
+}
